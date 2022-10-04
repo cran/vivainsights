@@ -1,0 +1,174 @@
+# --------------------------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License. See LICENSE.txt in the project root for license information.
+# --------------------------------------------------------------------------------------------
+
+#' @title Sample Person Query dataset
+#'
+#' @description
+#' A dataset generated from a Person Query from Viva Insights.
+#'
+#' @family Data
+#'
+#' @return data frame.
+#'
+#' @format A data frame with 5593 rows and 154 variables:
+#' \describe{
+#' \item{PersonId}{ }
+#' \item{MetricDate}{ }
+#' \item{After_hours_call_hours}{ }
+#' \item{After_hours_chat_hours}{ }
+#' \item{After_hours_collaboration_hours}{ }
+#' \item{After_hours_email_hours}{ }
+#' \item{After_hours_meeting_hours}{ }
+#' \item{After_hours_scheduled_call_hours}{ }
+#' \item{After_hours_unscheduled_call_hours}{ }
+#' \item{Call_hours}{ }
+#' \item{Calls}{ }
+#' \item{Chat_hours}{ }
+#' \item{Chats_sent}{ }
+#' \item{Collaboration_hours}{ }
+#' \item{Email_hours}{ }
+#' \item{Emails_sent}{ }
+#' \item{Meeting_and_call_hours}{ }
+#' \item{Meeting_hours}{ }
+#' \item{Meetings}{ }
+#' \item{Multitasking_hours}{ }
+#' \item{Scheduled_call_hours}{ }
+#' \item{Unscheduled_call_hours}{ }
+#' \item{Urgent_email_hours}{ }
+#' \item{Urgent_meeting_hours}{ }
+#' \item{Collaboration_hours_on_Friday}{ }
+#' \item{Collaboration_hours_on_Monday}{ }
+#' \item{Collaboration_hours_on_Saturday}{ }
+#' \item{Collaboration_hours_on_Sunday}{ }
+#' \item{Collaboration_hours_on_Thursday}{ }
+#' \item{Collaboration_hours_on_Tuesday}{ }
+#' \item{Collaboration_hours_on_Wednesday}{ }
+#' \item{Meeting_hours_on_Friday}{ }
+#' \item{Meeting_hours_on_Monday}{ }
+#' \item{Meeting_hours_on_Saturday}{ }
+#' \item{Meeting_hours_on_Sunday}{ }
+#' \item{Meeting_hours_on_Thursday}{ }
+#' \item{Meeting_hours_on_Tuesday}{ }
+#' \item{Meeting_hours_on_Wednesday}{ }
+#' \item{Unscheduled_weekend_calls}{ }
+#' \item{Weekend_chats_sent}{ }
+#' \item{Weekend_emails_sent}{ }
+#' \item{Weekend_meetings}{ }
+#' \item{Chats_sent_00_01}{ }
+#' \item{Chats_sent_01_02}{ }
+#' \item{Chats_sent_02_03}{ }
+#' \item{Chats_sent_03_04}{ }
+#' \item{Chats_sent_04_05}{ }
+#' \item{Chats_sent_05_06}{ }
+#' \item{Chats_sent_06_07}{ }
+#' \item{Chats_sent_07_08}{ }
+#' \item{Chats_sent_08_09}{ }
+#' \item{Chats_sent_09_10}{ }
+#' \item{Chats_sent_10_11}{ }
+#' \item{Chats_sent_11_12}{ }
+#' \item{Chats_sent_12_13}{ }
+#' \item{Chats_sent_13_14}{ }
+#' \item{Chats_sent_14_15}{ }
+#' \item{Chats_sent_15_16}{ }
+#' \item{Chats_sent_16_17}{ }
+#' \item{Chats_sent_17_18}{ }
+#' \item{Chats_sent_18_19}{ }
+#' \item{Chats_sent_19_20}{ }
+#' \item{Chats_sent_20_21}{ }
+#' \item{Chats_sent_21_22}{ }
+#' \item{Chats_sent_22_23}{ }
+#' \item{Chats_sent_23_24}{ }
+#' \item{Emails_sent_00_01}{ }
+#' \item{Emails_sent_01_02}{ }
+#' \item{Emails_sent_02_03}{ }
+#' \item{Emails_sent_03_04}{ }
+#' \item{Emails_sent_04_05}{ }
+#' \item{Emails_sent_05_06}{ }
+#' \item{Emails_sent_06_07}{ }
+#' \item{Emails_sent_07_08}{ }
+#' \item{Emails_sent_08_09}{ }
+#' \item{Emails_sent_09_10}{ }
+#' \item{Emails_sent_10_11}{ }
+#' \item{Emails_sent_11_12}{ }
+#' \item{Emails_sent_12_13}{ }
+#' \item{Emails_sent_13_14}{ }
+#' \item{Emails_sent_14_15}{ }
+#' \item{Emails_sent_15_16}{ }
+#' \item{Emails_sent_16_17}{ }
+#' \item{Emails_sent_17_18}{ }
+#' \item{Emails_sent_18_19}{ }
+#' \item{Emails_sent_19_20}{ }
+#' \item{Emails_sent_20_21}{ }
+#' \item{Emails_sent_21_22}{ }
+#' \item{Emails_sent_22_23}{ }
+#' \item{Emails_sent_23_24}{ }
+#' \item{Meetings_00_01}{ }
+#' \item{Meetings_01_02}{ }
+#' \item{Internal_meeting_hours_with_3_to_8_attendees}{ }
+#' \item{Internal_meeting_hours_without_manager_1_1}{ }
+#' \item{Small_group_chats_sent__excluding_manager}{ }
+#' \item{Small_group_emails_sent__excluding_manager}{ }
+#' \item{Small_group_meeting__call__and_chat_hours}{ }
+#' \item{Collaboration_hours_with_direct_reports}{ }
+#' \item{Manager_coaching_hours_1_1}{ }
+#' \item{Meeting_and_call_hours_with_manager}{ }
+#' \item{Meeting_and_call_hours_with_manager_1_1}{ }
+#' \item{Meeting_and_call_hours_with_skip_level}{ }
+#' \item{Meeting_hours_with_manager}{ }
+#' \item{Meeting_hours_with_manager_1_1}{ }
+#' \item{Meeting_hours_with_skip_level}{ }
+#' \item{Meetings_with_manager}{ }
+#' \item{Meetings_with_manager_1_1}{ }
+#' \item{Meetings_with_skip_level}{ }
+#' \item{Small_group_chats_sent__including_manager}{ }
+#' \item{Small_group_emails_sent__including_manager}{ }
+#' \item{Unscheduled_call_hours_with_manager}{ }
+#' \item{Unscheduled_call_hours_with_manager_1_1}{ }
+#' \item{Unscheduled_call_hours_with_skip_level}{ }
+#' \item{Internal_network_size}{ }
+#' \item{Conflicting_meeting_hours}{ }
+#' \item{Large_and_long_meeting_hours}{ }
+#' \item{Large_and_long_recurring_meeting_hours}{ }
+#' \item{Large_and_short_meeting_hours}{ }
+#' \item{Large_and_short_recurring_meeting_hours}{ }
+#' \item{Meeting_hours_ended_on_time}{ }
+#' \item{Meeting_hours_joined_on_time}{ }
+#' \item{Meeting_hours_not_ended_on_time}{ }
+#' \item{Meeting_hours_not_joined_on_time}{ }
+#' \item{Meeting_hours_with_12_to_24_hours_of_advanced_notice}{ }
+#' \item{Meeting_hours_with_24_or_more_hours_of_advanced_notice}{ }
+#' \item{Meeting_hours_with_six_or_fewer_hours_of_advanced_notice}{ }
+#' \item{Meeting_hours_with_six_to_12_hours_of_advanced_notice}{ }
+#' \item{Recurring_meeting_hours}{ }
+#' \item{Small_and_long_meeting_hours}{ }
+#' \item{Small_and_long_recurring_meeting_hours}{ }
+#' \item{Small_and_short_meeting_hours}{ }
+#' \item{Small_and_short_recurring_meeting_hours}{ }
+#' \item{Available_to_focus_hours}{ }
+#' \item{Interrupted_hours}{ }
+#' \item{Uninterrupted_hours}{ }
+#' \item{External_chat_hours}{ }
+#' \item{External_collaboration_hours}{ }
+#' \item{External_email_hours}{ }
+#' \item{External_meeting_hours}{ }
+#' \item{External_unscheduled_call_hours}{ }
+#' \item{Working_hours_call_hours}{ }
+#' \item{Working_hours_chat_hours}{ }
+#' \item{Working_hours_collaboration_hours}{ }
+#' \item{Working_hours_email_hours}{ }
+#' \item{Working_hours_meeting_hours}{ }
+#' \item{Working_hours_scheduled_call_hours}{ }
+#' \item{Working_hours_unscheduled_call_hours}{ }
+#' \item{LevelDesignation}{ }
+#' \item{Layer}{ }
+#' \item{SupervisorIndicator}{ }
+#' \item{Organization}{ }
+#' \item{FunctionType}{ }
+#' \item{WeekendDays}{ }
+#' \item{IsActive}{ }
+#'
+#' }
+#' @source \url{https://www.microsoft.com/en-us/microsoft-viva/insights}
+"pq_data"
