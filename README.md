@@ -1,5 +1,8 @@
 # vivainsights <img src="https://raw.githubusercontent.com/microsoft/vivainsights/main/man/figures/logo.png" align="right" width=15% />
 
+[![R build status](https://github.com/microsoft/vivainsights/workflows/R-CMD-check/badge.svg)](https://github.com/microsoft/wpa/actions/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+[![CRAN status](https://www.r-pkg.org/badges/version/vivainsights)](https://CRAN.R-project.org/package=vivainsights/)
 [![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/last-month/vivainsights?color=green/)](https://cran.r-project.org/package=vivainsights/)
 
 ## Analyze and Visualize Viva Leader Insights data
@@ -24,6 +27,7 @@ This library is compatible with the latest implementation of the Viva Insights A
 - [Viva Insights Zoom Integration](https://github.com/microsoft/vivainsights_zoom_int/)
 - [Viva Insights OData Query Download](https://github.com/microsoft/vivainsights-odatadl/)
 - [Viva Insights R library (legacy)](https://microsoft.github.io/wpa/)
+- [Viva Insights Python library](https://github.com/microsoft/vivainsights-py/)
 
 ---
 
