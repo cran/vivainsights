@@ -127,6 +127,7 @@
 #' # return vertex table
 #' network_p2p(data = p2p_df, return = "table")
 #'
+#' \donttest{
 #' # return vertex table with community detection
 #' network_p2p(data = p2p_df, community = "leiden", return = "table")
 #'
@@ -164,6 +165,7 @@
 #'   return = "data"
 #' ) %>%
 #'   dplyr::glimpse()
+#' }
 #'
 #' @import ggplot2
 #' @import dplyr
@@ -180,7 +182,7 @@ network_p2p <-
     weight = NULL,
     comm_args = NULL,
     layout = "mds",
-    path = paste("p2p", NULL, sep = "_"),
+    path = paste("p2p", community, sep = "_"),
     style = "igraph",
     bg_fill = "#FFFFFF",
     font_col = "grey20",

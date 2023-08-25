@@ -1,7 +1,7 @@
-04cfe43428546e4a991fe9f68aec66d9 *DESCRIPTION
+e55b7c213d713ece5ed7fa3212d008e0 *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
-408a0eb3e4dd7e6f856bfff47df84d4c *NAMESPACE
-af638fb84491390f8279ef277a915c6d *NEWS.md
+6f029fc65c1c23db5b6e5be1672a2310 *NAMESPACE
+47bc16a49473cd3158427e93812ab040 *NEWS.md
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
 cecfde656b58d140702db8d619e592d0 *R/afterhours_line.R
@@ -24,7 +24,7 @@ f6713469dfaa6a4793cc8d973ac6f434 *R/collaboration_rank.R
 f24ed7b3d3d9a757486dddf6df33878d *R/create_bubble.R
 3ec5ce6de62b89a0f2165c94fb8fab77 *R/create_density.R
 9420364cbcec2d407af19bc51ed310d7 *R/create_dist.R
-ddee495420673d0564848d1712f09a8e *R/create_dt.R
+f4440635c8c2a7394f848387ae08592b *R/create_dt.R
 ee652fe97139feafde5b1284a1577495 *R/create_fizz.R
 bc27a7652c90eb867345f78d9d5d5a15 *R/create_hist.R
 d658e9806cf28e42c49f34c38f7e42c9 *R/create_inc.R
@@ -88,7 +88,7 @@ d9db2cffd0c693ba16b352a552d16766 *R/meeting_rank.R
 eb3e4f4f40f73014c04d1c7dc24c299d *R/meeting_trend.R
 90e51e156740ca93c115a23b0c0b12b6 *R/mt_data.R
 bc834ad7ede97e589a0d842197f4fbad *R/network_g2g.R
-6e86b3bb264b96850cfb1ab704ee5ca9 *R/network_p2p.R
+74443294e7607bbea344726406c55b2c *R/network_p2p.R
 1c307d15ec5209747a20ecc280da530b *R/network_summary.R
 715ef124e6f3fcd7fe0f621ce6591eb0 *R/one2one_dist.R
 921c0378b32c1dc13bcaf7191ecebae2 *R/one2one_fizz.R
@@ -105,7 +105,7 @@ eb8d8b2eee36d7091988a5ec6cb52fcb *R/pq_data.R
 1730ac4efca36aaadb84db51522e2167 *R/supporting_functions.R
 31543db039a092379fffb02a7d58729d *R/themes.R
 729d3e97b7b19f6b945c40adc4d1cf48 *R/tm_clean.R
-5dea74c0eccb2e1e9aac413c204671ee *R/tm_cooc.R
+8fb35cff4cd6e370d01198909c33b190 *R/tm_cooc.R
 66cb94c61821774a44e9435afac73be6 *R/tm_freq.R
 b0293884d171f8b000624f3ddcb4e932 *R/tm_wordcloud.R
 98eccffab1de1f818ca18703a8003072 *R/totals_bind.R
@@ -117,7 +117,7 @@ d74eb17b7c4e3ad4fcb4fe17ab19e767 *R/tstamp.R
 9d938adec9a9a5e2c32f3568351a7a01 *R/validation_report.R
 d7a54580ba6b0c63cf4b2782267b6f43 *R/vivainsights-package.R
 45b6aaa5627c33bebe34c71b085ae356 *R/wrap.R
-42ab69bebf7ac8805dd15a31e9972b63 *README.md
+4f4b9ea52311ef217e71ea2b740b9a65 *README.md
 a9bef4b05761e1c6a9dce298480b38d1 *data/g2g_data.rda
 c452e8931dda49edc9833f49baa8b156 *data/mt_data.rda
 0b697cb9cfc85c7adc901db06d97c4b6 *data/p2p_data.rda
@@ -201,7 +201,7 @@ b07465e4195c0f5a65db770f62e1a3a7 *man/copy_df.Rd
 fe200d94d009cd3010d9dad03a38ac97 *man/create_bubble.Rd
 e9d02e5951f8ff2f5b9fdbee588ceaf4 *man/create_density.Rd
 8c2d7ba47d00a8b71dccd2c9fa44304e *man/create_dist.Rd
-91e39a9afe012d9e1dcee04d31d3696c *man/create_dt.Rd
+4a3d4695a08741b5f72fea9599950dd6 *man/create_dt.Rd
 cce5eaf781b22ce87f87868ccee58c94 *man/create_fizz.Rd
 0836e1cda454debe304415e2ac3a6726 *man/create_hist.Rd
 ea2118bc2d5d31056d0ece754522c02f *man/create_inc.Rd
@@ -276,7 +276,7 @@ bf46c43f120d2a74593587ee19197b1d *man/meeting_rank.Rd
 5a6b8106124a13905fbc46604e439d9c *man/meeting_trend.Rd
 464facc4d169a37c50db23df0a0d7443 *man/mt_data.Rd
 0a09e94c48e69eba5f85c073ceb91466 *man/network_g2g.Rd
-a9fbd67fd8b3fe57d99e07637f2da7e9 *man/network_p2p.Rd
+7ceea5d3557def2c20db4f433d778cbf *man/network_p2p.Rd
 dcb4d8e2907b6a1a5b9f251e218a50c2 *man/network_summary.Rd
 702006ef9328a887b6a791e13a59d3e9 *man/one2one_dist.Rd
 7be665f84fd84fe489e581976c3b43f2 *man/one2one_fizz.Rd
@@ -296,7 +296,7 @@ cd7a7fbc4597650513fe052679b7dca0 *man/rgb2hex.Rd
 f375dac32abd63a57a94f0279971ec18 *man/theme_wpa.Rd
 76364997ae876ecdfee1d45836d86724 *man/theme_wpa_basic.Rd
 7041196222dca188d3d76756e81ebadd *man/tm_clean.Rd
-4e716171d44a7bf66fb23b965dd501dc *man/tm_cooc.Rd
+2bec7ebfa428e40a20be95b413ac6332 *man/tm_cooc.Rd
 15b6c71827bea1922fa534c7156c7447 *man/tm_freq.Rd
 b619b761bee24fe27fb666202743e630 *man/tm_wordcloud.Rd
 998b50e57e9a4195be5bab17037356bc *man/totals_bind.Rd
