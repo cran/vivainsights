@@ -1,7 +1,7 @@
 Package: vivainsights
 Type: Package
 Title: Analyze and Visualize Data from 'Microsoft Viva Insights'
-Version: 0.4.1
+Version: 0.4.2
 Authors@R: c(
     person(given = "Martin", family = "Chan", role = c("aut", "cre"), email = "martin.chan@microsoft.com"),
     person(given = "Carlos", family = "Morales", role = "aut", email = "carlos.morales@microsoft.com")
@@ -21,8 +21,8 @@ Imports: dplyr, stats, utils, tidyr, tidyselect (>= 1.0.0), magrittr,
 Suggests: flexdashboard
 URL: https://microsoft.github.io/vivainsights/
 NeedsCompilation: no
-Packaged: 2023-08-25 08:18:43 UTC; martinchan
+Packaged: 2023-10-17 11:58:10 UTC; martinchan
 Author: Martin Chan [aut, cre],
   Carlos Morales [aut]
 Repository: CRAN
-Date/Publication: 2023-08-25 08:50:02 UTC
+Date/Publication: 2023-10-17 12:40:02 UTC
