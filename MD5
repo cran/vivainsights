@@ -1,7 +1,7 @@
-41927027dbf77426f720dc1680cf18c7 *DESCRIPTION
+e744706f206170e62639a3f5b22d5835 *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
 5c12656f9aa70c05ac05476b6b8bf93a *NAMESPACE
-f1056095922b9d2525eeb64f37307bdf *NEWS.md
+72195ed881314e7d589f78d62ecde0ac *NEWS.md
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
 cecfde656b58d140702db8d619e592d0 *R/afterhours_line.R
@@ -55,7 +55,7 @@ acccbbf806e9bbf53e15ed4df395adf0 *R/email_trend.R
 3b568ddef502ae368421f975ecf7b5ad *R/flag_em_ratio.R
 66ff66ebca0ea10ea2c847a1fb5c57ff *R/flag_extreme.R
 78a3097d16d7139933fa08e0cbd9e64c *R/flag_outlooktime.R
-266c389297e15f1d8baf9e7df178ffa5 *R/g2g_data.R
+234735131e3a3060c8af1119da84fc28 *R/g2g_data.R
 48ab223e6870fcb3d453fa81f30daa1f *R/generate_report.R
 0dfd7a01a5176480b2d1c8e907c5fa5d *R/generate_report2.R
 e6d9c41392034096b260656ecf28c9ae *R/globals.R
@@ -87,8 +87,8 @@ d9db2cffd0c693ba16b352a552d16766 *R/meeting_rank.R
 3020969beb712ecd15fa623dbc5085f5 *R/meeting_tm_report.R
 eb3e4f4f40f73014c04d1c7dc24c299d *R/meeting_trend.R
 90e51e156740ca93c115a23b0c0b12b6 *R/mt_data.R
-bc834ad7ede97e589a0d842197f4fbad *R/network_g2g.R
-74443294e7607bbea344726406c55b2c *R/network_p2p.R
+af4450b88c2762e7b7c71c23971f23a8 *R/network_g2g.R
+aa33601cda52c205fa674abaea6e3e75 *R/network_p2p.R
 1c307d15ec5209747a20ecc280da530b *R/network_summary.R
 715ef124e6f3fcd7fe0f621ce6591eb0 *R/one2one_dist.R
 921c0378b32c1dc13bcaf7191ecebae2 *R/one2one_fizz.R
@@ -97,7 +97,7 @@ bc834ad7ede97e589a0d842197f4fbad *R/network_g2g.R
 2e65e0efda26890eb31b835ea85553c2 *R/one2one_rank.R
 0ee051e1cd8eb39af85f63458d4a9143 *R/one2one_sum.R
 00aa7e56c3e485b306bebe183137b4f3 *R/one2one_trend.R
-77728813bbd2de9e305d9f25fb228412 *R/p2p_data.R
+ae3ddc94dc9ef3f5f7efcb2cbd4b6708 *R/p2p_data.R
 1711ed21bb8eaa0320118549794377fd *R/p2p_data_sim.R
 908c619d6e72822faffb02d7c67ffdab *R/pairwise_count.R
 eb8d8b2eee36d7091988a5ec6cb52fcb *R/pq_data.R
@@ -118,9 +118,9 @@ d74eb17b7c4e3ad4fcb4fe17ab19e767 *R/tstamp.R
 d7a54580ba6b0c63cf4b2782267b6f43 *R/vivainsights-package.R
 45b6aaa5627c33bebe34c71b085ae356 *R/wrap.R
 42ab69bebf7ac8805dd15a31e9972b63 *README.md
-a9bef4b05761e1c6a9dce298480b38d1 *data/g2g_data.rda
+fc40d01c20c64662df5e0cdc39b50990 *data/g2g_data.rda
 f92d0c1ee947ab4a2773769ed47d76c6 *data/mt_data.rda
-0b697cb9cfc85c7adc901db06d97c4b6 *data/p2p_data.rda
+22252370a59a1ed86ff9429ecd7a32fd *data/p2p_data.rda
 ef087cf3d63154415d3968f0b5736590 *data/pq_data.rda
 36f492df90f8764e3e164aa0e6284859 *inst/preamble/IV_report.md
 d41d8cd98f00b204e9800998ecf8427e *inst/preamble/afterhours_section.md
@@ -183,7 +183,7 @@ c84988339b80a77ed666e0de2a13da04 *man/afterhours_fizz.Rd
 be853662bbae869849e236728e4f3f99 *man/afterhours_summary.Rd
 01cca73fbd0440bfc55bc6c5785eaadd *man/afterhours_trend.Rd
 62ed0a8db727fb7d4cd49e867172df91 *man/anonymise.Rd
-809166eb42507ed394cf4da016efee51 *man/any_idate.Rd
+4d5e380ac37666206a90fbc8075bbd78 *man/any_idate.Rd
 bd174df3257655798a27c689d5bd58c2 *man/camel_clean.Rd
 3e265e3b72911abcac8f430712deff05 *man/check_inputs.Rd
 648b26e70b0bb5c7ccb55a54489f9e23 *man/check_query.Rd
@@ -245,7 +245,7 @@ a84a778bac11c75fb93f9f6d3f9c733a *man/flag_ch_ratio.Rd
 a750fa88fc8feb4f908ef751f4688d37 *man/flag_em_ratio.Rd
 30bfc0cbff4f2c7cc8294d9fcb13c736 *man/flag_extreme.Rd
 fdca9f3e8acc8403b9623f42df6fe651 *man/flag_outlooktime.Rd
-619cc4f0a38d02257ac6a389e33171d1 *man/g2g_data.Rd
+a007df4808c018ec4036a5865f2013a8 *man/g2g_data.Rd
 3ea49f354d05b5941936d189c198fbbf *man/generate_report.Rd
 a8757be567945a0e14600e924db9d055 *man/generate_report2.Rd
 a32987efe5368ed3922d389482dae940 *man/heat_colours.Rd
@@ -276,7 +276,7 @@ bf46c43f120d2a74593587ee19197b1d *man/meeting_rank.Rd
 1d59ba678768902094cefd8016c6c511 *man/meeting_tm_report.Rd
 5a6b8106124a13905fbc46604e439d9c *man/meeting_trend.Rd
 464facc4d169a37c50db23df0a0d7443 *man/mt_data.Rd
-0a09e94c48e69eba5f85c073ceb91466 *man/network_g2g.Rd
+018ae3516acde1542c4c1d2aa243d281 *man/network_g2g.Rd
 7ceea5d3557def2c20db4f433d778cbf *man/network_p2p.Rd
 dcb4d8e2907b6a1a5b9f251e218a50c2 *man/network_summary.Rd
 702006ef9328a887b6a791e13a59d3e9 *man/one2one_dist.Rd
@@ -286,7 +286,7 @@ b9e9a674a00ee1b2413c686ecfeba24c *man/one2one_line.Rd
 33f5298d3f5511e87bf1ed154451ccfe *man/one2one_rank.Rd
 0c00045b8c614c4ed996463982b012b7 *man/one2one_sum.Rd
 3702f5d1576b78f72fde20901cfa0093 *man/one2one_trend.Rd
-9b0cf3fd66aefced4d6432c7a216074f *man/p2p_data.Rd
+6fe32474e30e3b13ce0aa93d385f7861 *man/p2p_data.Rd
 703a55c3e8e048b1851f032f65adc92e *man/p2p_data_sim.Rd
 c5565f16d9997bc26ed47d2c55144c39 *man/pad2.Rd
 03dd0a0d25994716466a383addc498c5 *man/pairwise_count.Rd
@@ -309,3 +309,5 @@ b619b761bee24fe27fb666202743e630 *man/tm_wordcloud.Rd
 69529f8aecee8b1b0183ea51262feddf *man/vivainsights-package.Rd
 2a5a4570c41d226b294f95c2f6865822 *man/wrap.Rd
 dddcbb37f7a908f0842383c39478a199 *man/wrap_text.Rd
+81da185fe64edda74135d7e27221e35d *tests/testthat.R
+22f336d7592a47ac12ec1326c659e555 *tests/testthat/test_network_p2p.R
