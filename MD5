@@ -1,7 +1,7 @@
-29412d92be4fd4ed75b5fe2405b2e396 *DESCRIPTION
+3c0b8dea5351a04421d2b23f1fe88c31 *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
 a6624db652da74a00de794cec1c5dd0f *NAMESPACE
-844582b07f22c557f8e61a6ec4b29133 *NEWS.md
+169209de0da378d842fa36e7a686842f *NEWS.md
 faa46261f4d2d3df720809cccc38d65d *R/IV_report.R
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
@@ -19,10 +19,10 @@ f6713469dfaa6a4793cc8d973ac6f434 *R/collaboration_rank.R
 05548501959e26c8e25f39e2d2edce42 *R/collaboration_sum.R
 6d9e2bbd2501e7258a8ad423f0108501 *R/collaboration_trend.R
 20b16f75565f2b2a073f2854c44147f9 *R/copy_df.R
-d4b5f04292d9cf6f9f43fca74ef29d7c *R/create_IV.R
+d22b3d249c348ddac77bb498087ddd84 *R/create_IV.R
 7076e1b3c1469026d9ec767004ad8280 *R/create_bar.R
 05ddc16cfb6e388072933cbe209ebf6e *R/create_bar_asis.R
-46c08a911c927b061bcba023c10ea45c *R/create_boxplot.R
+b3848f91de4d845f473f9d9543183e45 *R/create_boxplot.R
 f24ed7b3d3d9a757486dddf6df33878d *R/create_bubble.R
 3ec5ce6de62b89a0f2165c94fb8fab77 *R/create_density.R
 9420364cbcec2d407af19bc51ed310d7 *R/create_dist.R
@@ -36,7 +36,7 @@ f97eb14582ea09145ac30e4288682ff2 *R/create_period_scatter.R
 0bf1369871ab021c292e57dc06b78c62 *R/create_rank.R
 54f3b3a3e58db62c45a6fbef301052e4 *R/create_sankey.R
 efdba1414b1e9154d97576fbe6032592 *R/create_scatter.R
-5bf353a4298341f2705c05b33746aee3 *R/create_stacked.R
+180daa4d64c93ac1fe97b166f335575f *R/create_stacked.R
 e383ea0652cd41670c76606950bd10d8 *R/create_tracking.R
 1312acf5a8509354919dc9c1fb6b22f4 *R/create_trend.R
 291916393896bbefbd5c0611191d618e *R/cut_hour.R
