@@ -1,7 +1,7 @@
-3c0b8dea5351a04421d2b23f1fe88c31 *DESCRIPTION
+d3a8ef5a9cc424729293953509bc34e6 *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
-a6624db652da74a00de794cec1c5dd0f *NAMESPACE
-169209de0da378d842fa36e7a686842f *NEWS.md
+36fc65133ebe7e2e3ca4b61fe81d8762 *NAMESPACE
+ff104982f94aaf2ce155229ff6bd29b4 *NEWS.md
 faa46261f4d2d3df720809cccc38d65d *R/IV_report.R
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
@@ -32,6 +32,7 @@ bc27a7652c90eb867345f78d9d5d5a15 *R/create_hist.R
 d658e9806cf28e42c49f34c38f7e42c9 *R/create_inc.R
 6c4ea7f902f86721020a341d28bfb4bd *R/create_line.R
 4604e433f7a60c0cd376d8007825c50d *R/create_line_asis.R
+f4ffa3f9baa897ae16a6fac9ca51a513 *R/create_lorenz.R
 f97eb14582ea09145ac30e4288682ff2 *R/create_period_scatter.R
 0bf1369871ab021c292e57dc06b78c62 *R/create_rank.R
 54f3b3a3e58db62c45a6fbef301052e4 *R/create_sankey.R
@@ -46,7 +47,7 @@ a478e35f7ff76e95fb9fb52b8d6f4356 *R/email_dist.R
 ac99f39a495300656982590ef99d1305 *R/email_rank.R
 ab59eb1d6f5a42c4ec48023a521f28b8 *R/email_summary.R
 acccbbf806e9bbf53e15ed4df395adf0 *R/email_trend.R
-7b65354ba827717cd81430f6774006dc *R/export.R
+d0b87abb898d08b87fd67beae73a0ce3 *R/export.R
 10a087831ab2c4a0528c94fad7ae3d05 *R/external_dist.R
 08b8a375e632625432629e6f12346b71 *R/external_fizz.R
 2b0cb79d93a3180fcb9990e2a24d6c20 *R/external_line.R
@@ -60,7 +61,7 @@ acccbbf806e9bbf53e15ed4df395adf0 *R/email_trend.R
 234735131e3a3060c8af1119da84fc28 *R/g2g_data.R
 48ab223e6870fcb3d453fa81f30daa1f *R/generate_report.R
 0dfd7a01a5176480b2d1c8e907c5fa5d *R/generate_report2.R
-21eb16180d6ea5386a0360fa6ffb2929 *R/globals.R
+a9abfc5b9b9e29b6bc60df4688e5104a *R/globals.R
 e247550fe0c37a91dfe4ca28283fd476 *R/heat_colours.R
 c5b1c04db964d74ba37773cd2d0b6c64 *R/hr_trend.R
 0d204417c5dac7fe707936e08c6c050a *R/hrvar_count.R
@@ -212,6 +213,7 @@ ad1939f90ee98c6c54ae0760a032b43d *man/create_hist.Rd
 d4dc2700c2715447ce361354c5a0cd35 *man/create_inc.Rd
 c4faba2a69ae28768c7d2a853711d3ca *man/create_line.Rd
 31ecc529675084a9800ede3dbef453fa *man/create_line_asis.Rd
+805e8592fad1fac44ce8a1a525c49916 *man/create_lorenz.Rd
 c066ce2baaa84e10b84d712f24d8a725 *man/create_period_scatter.Rd
 af0d4b25fcb24d1a3eeafc1fc1316ee4 *man/create_rank.Rd
 4c4a2da824abfa7a39cf8e63ba81c027 *man/create_rank_combine.Rd
