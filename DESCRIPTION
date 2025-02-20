@@ -1,7 +1,7 @@
 Package: vivainsights
 Type: Package
 Title: Analyze and Visualize Data from 'Microsoft Viva Insights'
-Version: 0.5.5
+Version: 0.6.0
 Authors@R: c(
     person(given = "Martin", family = "Chan", role = c("aut", "cre"), email = "martin.chan@microsoft.com"),
     person(given = "Carlos", family = "Morales", role = "aut", email = "carlos.morales@microsoft.com")
@@ -13,18 +13,18 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Language: en-US
-Depends: R (>= 3.1.2)
+Depends: R (>= 4.0)
 Imports: dplyr, stats, utils, tidyr, tidyselect (>= 1.0.0), magrittr,
         ggplot2, reshape2, scales, ggrepel, purrr, data.table, methods,
         htmltools, markdown, networkD3, rmarkdown, wpa, ggraph, igraph,
-        tidytext, ggwordcloud, lifecycle
+        tidytext, ggwordcloud, lifecycle, glue
 Suggests: flexdashboard, testthat (>= 3.0.0)
 URL: https://microsoft.github.io/vivainsights/
 BugReports: https://github.com/microsoft/vivainsights/issues/
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-11-19 18:25:45 UTC; martinchan
+Packaged: 2025-02-20 22:38:37 UTC; martinchan
 Author: Martin Chan [aut, cre],
   Carlos Morales [aut]
 Repository: CRAN
-Date/Publication: 2024-11-19 18:50:02 UTC
+Date/Publication: 2025-02-20 23:10:01 UTC
