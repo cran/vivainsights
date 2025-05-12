@@ -1,7 +1,7 @@
-6d8bdae17f87310ee931b4f0f38f20af *DESCRIPTION
+54c5a952ebb0b5d887441ecbe43cbeaf *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
-f959b427b71d2fe49a3aee07330a4675 *NAMESPACE
-2cc3ba69dd652b1bbf20baa0dabe5c57 *NEWS.md
+e3ef0cbdb42974dc0182967b015106b0 *NAMESPACE
+282bd1ef9c78547b08c76eea77a9a2ed *NEWS.md
 faa46261f4d2d3df720809cccc38d65d *R/IV_report.R
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
@@ -30,6 +30,7 @@ f24ed7b3d3d9a757486dddf6df33878d *R/create_bubble.R
 20a34a2ed15f328a39bbedb069b7c4d2 *R/create_fizz.R
 bc27a7652c90eb867345f78d9d5d5a15 *R/create_hist.R
 d658e9806cf28e42c49f34c38f7e42c9 *R/create_inc.R
+4ac39b734468ffb32e1390992b289678 *R/create_itsa.R
 cca0beaf6c0822c2f5376c89728c742e *R/create_line.R
 4604e433f7a60c0cd376d8007825c50d *R/create_line_asis.R
 c64a6af5a7baa58a3f9902c000464288 *R/create_lorenz.R
@@ -61,7 +62,7 @@ d0b87abb898d08b87fd67beae73a0ce3 *R/export.R
 234735131e3a3060c8af1119da84fc28 *R/g2g_data.R
 48ab223e6870fcb3d453fa81f30daa1f *R/generate_report.R
 0dfd7a01a5176480b2d1c8e907c5fa5d *R/generate_report2.R
-44ac987b10f3f1892c2b7e19d038471c *R/globals.R
+f49f37003f2566d14101595250bad398 *R/globals.R
 e247550fe0c37a91dfe4ca28283fd476 *R/heat_colours.R
 c5b1c04db964d74ba37773cd2d0b6c64 *R/hr_trend.R
 0d204417c5dac7fe707936e08c6c050a *R/hrvar_count.R
@@ -69,7 +70,7 @@ d8d32bdb00a2ffa14fba10b71095738f *R/hrvar_count_all.R
 dfb94d67bb4772b0c2035102c8acf83b *R/hrvar_trend.R
 6bf67030edcf92a9631c96e8ed6155b3 *R/identify_churn.R
 ea79b2d30da070d7c48f67c8cec71991 *R/identify_datefreq.R
-27d71557fb176e8bdaf01fe245d41e96 *R/identify_habit.R
+cde657c1163e3710b1a1f68e1f50e633 *R/identify_habit.R
 dd0a1a50aa1bd70e03c29a357986c8f3 *R/identify_holidayweeks.R
 71726c9e71c134abc9783676ab13a849 *R/identify_inactiveweeks.R
 162322174bcfd207a86b3f0acf68b5dc *R/identify_nkw.R
@@ -77,6 +78,7 @@ dd0a1a50aa1bd70e03c29a357986c8f3 *R/identify_holidayweeks.R
 dcf18bf8f5d86f990ff2a20d644f4f2e *R/identify_privacythreshold.R
 49e9a9431490caecc398037d1a102869 *R/identify_shifts.R
 23ab70a36f34a7c66bdb88434ffe6dea *R/identify_tenure.R
+6127bcee1734e5d3ccb1254ff60796f6 *R/identify_usage_segments.R
 4d8b447acd211fd56918b79c0d9728b7 *R/import_query.R
 b91c6eb1b3e7dfcdcb274f21ecad6064 *R/init.R
 7bb7e80efc1d7e4a413280fcb9abb365 *R/is_date_format.R
@@ -123,7 +125,7 @@ e83bff9c0b53143e9ac0c65bad85fa6a *R/validation_report.R
 e043777e46a94d011dbf42c74c1ce252 *R/vivainsights-package.R
 45b6aaa5627c33bebe34c71b085ae356 *R/wrap.R
 fb1e3d45b530506771eac152ebcc0eb0 *R/xicor.R
-a4f3bb9fb0a95b1f09d055fd8479a3a2 *README.md
+a08913bc7f4e5e5573ebb31f4d59b963 *README.md
 fc40d01c20c64662df5e0cdc39b50990 *data/g2g_data.rda
 f92d0c1ee947ab4a2773769ed47d76c6 *data/mt_data.rda
 22252370a59a1ed86ff9429ecd7a32fd *data/p2p_data.rda
@@ -214,6 +216,7 @@ a16dcb0a6c698366e9cef8bfa41b50ce *man/create_boxplot.Rd
 e97a357b9e64e4e896fa79f3c2e335ff *man/create_fizz.Rd
 ad1939f90ee98c6c54ae0760a032b43d *man/create_hist.Rd
 d4dc2700c2715447ce361354c5a0cd35 *man/create_inc.Rd
+a04d5bbf07c35ec374c122d0d4d41c8d *man/create_itsa.Rd
 c4faba2a69ae28768c7d2a853711d3ca *man/create_line.Rd
 31ecc529675084a9800ede3dbef453fa *man/create_line_asis.Rd
 92aa2e23f3a26abcea11c19279ae8d08 *man/create_lorenz.Rd
@@ -264,7 +267,7 @@ fea5c4cb5947192a627b620c30079dbc *man/hrvar_count_all.Rd
 b8ea1519ecdb7f640ba1841625271a99 *man/hrvar_trend.Rd
 29124c13ffc43d94fd3d4246406ae9d5 *man/identify_churn.Rd
 321e743cfd21066c5bc7153371e17808 *man/identify_datefreq.Rd
-b7c7ded000af3df46bb28bfa1b35d8e7 *man/identify_habit.Rd
+1172bb12089515e695ccd7e91104f639 *man/identify_habit.Rd
 a21200083e916b6fb2fb4a9b77d3a3b9 *man/identify_holidayweeks.Rd
 495418028686ba390b224c551f720dbc *man/identify_inactiveweeks.Rd
 0ef6df3483f8791c298850acc23824c7 *man/identify_nkw.Rd
@@ -272,6 +275,7 @@ ead57926f9df96d850316fb3c4585a87 *man/identify_outlier.Rd
 4118af4b7edc8ac99a21541a15112859 *man/identify_privacythreshold.Rd
 1575211e3b52c3b6c4a7de9a96fa3976 *man/identify_shifts.Rd
 df8f9546ad17a6a1a83e30ec9783a43c *man/identify_tenure.Rd
+c119dc3627c27f8244746cb96d52c709 *man/identify_usage_segments.Rd
 74a983a44d25eb2818cfe7a367aded08 *man/import_query.Rd
 3e7598888ac31fe40a45f44216559d69 *man/is_date_format.Rd
 a5838cb90337266bc7435cde3223ef20 *man/jitter_metrics.Rd
@@ -301,8 +305,9 @@ a50d28cbadb91d59c0cca79f26fa8300 *man/one2one_rank.Rd
 c5565f16d9997bc26ed47d2c55144c39 *man/pad2.Rd
 03dd0a0d25994716466a383addc498c5 *man/pairwise_count.Rd
 7ef9721c7bfe3bcbbd26c5af17647e09 *man/pipe.Rd
+2536b0ec5e46783282a37325590f796b *man/plot_ts_us.Rd
 2218c3a7a4b99bd8588118b7e85487f7 *man/pq_data.Rd
-69fbc6dcf61e09fe07ba4736ccf9788d *man/prep_query.Rd
+48047eec58adaa9456ebf3838f9eed00 *man/prep_query.Rd
 4627f1bd7e4db310ca9291caafe416f4 *man/read_preamble.Rd
 ee60761932462c6450a441a10283a4b0 *man/rgb2hex.Rd
 d14cace8036fefa2ab49ae35c1786551 *man/theme_wpa.Rd
@@ -333,6 +338,7 @@ f3a17f5049493aca2ef48b2d92309221 *tests/testthat/test_create_density.R
 89379e4d9015465d16bf5b0bdc82779a *tests/testthat/test_create_fizz.R
 1461803a89c68d954de31e4bb4bcec97 *tests/testthat/test_create_hist.R
 99233831c21cd81e1d1b9ffd34b6abca *tests/testthat/test_create_inc.R
+4e0f3c32b60732728122ecc0b091d853 *tests/testthat/test_create_itsa.R
 3b60901791585858762dcb537a530f38 *tests/testthat/test_create_line.R
 2037f5d7358958141c673cec7b01c65c *tests/testthat/test_create_line_asis.R
 244785af704be54b15dcea38a38eb5cc *tests/testthat/test_create_lorenz.R
