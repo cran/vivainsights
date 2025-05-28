@@ -1,7 +1,7 @@
 Package: vivainsights
 Type: Package
 Title: Analyze and Visualize Data from 'Microsoft Viva Insights'
-Version: 0.6.1
+Version: 0.6.2
 Authors@R: c(
     person(given = "Martin", family = "Chan", role = c("aut", "cre"), email = "martin.chan@microsoft.com"),
     person(given = "Carlos", family = "Morales", role = "aut", email = "carlos.morales@microsoft.com")
@@ -23,8 +23,8 @@ URL: https://microsoft.github.io/vivainsights/
 BugReports: https://github.com/microsoft/vivainsights/issues/
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2025-05-12 10:17:47 UTC; martinchan
+Packaged: 2025-05-28 09:40:49 UTC; martinchan
 Author: Martin Chan [aut, cre],
   Carlos Morales [aut]
 Repository: CRAN
-Date/Publication: 2025-05-12 11:10:02 UTC
+Date/Publication: 2025-05-28 11:20:02 UTC

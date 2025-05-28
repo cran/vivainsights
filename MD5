@@ -1,7 +1,7 @@
-54c5a952ebb0b5d887441ecbe43cbeaf *DESCRIPTION
+52ee6a56fd5381b8b59ebd28d118f9b5 *DESCRIPTION
 d5b3b03ec59b600433846f6e6661e41e *LICENSE
 e3ef0cbdb42974dc0182967b015106b0 *NAMESPACE
-282bd1ef9c78547b08c76eea77a9a2ed *NEWS.md
+b6e006793a802ec7e4048d3db186bfd3 *NEWS.md
 faa46261f4d2d3df720809cccc38d65d *R/IV_report.R
 118f83fdb72250e47d9b9ca991056089 *R/afterhours_dist.R
 ad111b299ee7fb799aa235c67db94059 *R/afterhours_fizz.R
@@ -71,9 +71,9 @@ dfb94d67bb4772b0c2035102c8acf83b *R/hrvar_trend.R
 6bf67030edcf92a9631c96e8ed6155b3 *R/identify_churn.R
 ea79b2d30da070d7c48f67c8cec71991 *R/identify_datefreq.R
 cde657c1163e3710b1a1f68e1f50e633 *R/identify_habit.R
-dd0a1a50aa1bd70e03c29a357986c8f3 *R/identify_holidayweeks.R
-71726c9e71c134abc9783676ab13a849 *R/identify_inactiveweeks.R
-162322174bcfd207a86b3f0acf68b5dc *R/identify_nkw.R
+4ff6a599e4dae04c6d51eca724c254c1 *R/identify_holidayweeks.R
+1a2efc4e851be5ed117f6527d256bba9 *R/identify_inactiveweeks.R
+ffdf654ee439d7f765b608aa5f549388 *R/identify_nkw.R
 2de6b2762b8a1ddaf93d37696e16a28f *R/identify_outlier.R
 dcf18bf8f5d86f990ff2a20d644f4f2e *R/identify_privacythreshold.R
 49e9a9431490caecc398037d1a102869 *R/identify_shifts.R
@@ -94,7 +94,7 @@ d9db2cffd0c693ba16b352a552d16766 *R/meeting_rank.R
 eb3e4f4f40f73014c04d1c7dc24c299d *R/meeting_trend.R
 90e51e156740ca93c115a23b0c0b12b6 *R/mt_data.R
 af4450b88c2762e7b7c71c23971f23a8 *R/network_g2g.R
-aa33601cda52c205fa674abaea6e3e75 *R/network_p2p.R
+76e2534663f87fca74221287858bb375 *R/network_p2p.R
 1c307d15ec5209747a20ecc280da530b *R/network_summary.R
 b5cd179a41a7354c58e41efecd823137 *R/one2one_dist.R
 5dc0209c166a95ab64eae98fd9977a50 *R/one2one_fizz.R
@@ -121,7 +121,7 @@ f8c38f1f9b79de844b9a6413c17b4dd1 *R/track_hr_change.R
 d74eb17b7c4e3ad4fcb4fe17ab19e767 *R/tstamp.R
 d1443fa40b1fffa1a4dd7ef51304aa3a *R/us_to_space.R
 05c0d84e116fe9aff87a574342ca7225 *R/utils-pipe.R
-e83bff9c0b53143e9ac0c65bad85fa6a *R/validation_report.R
+366be831bdbdf188a2cec489b497e465 *R/validation_report.R
 e043777e46a94d011dbf42c74c1ce252 *R/vivainsights-package.R
 45b6aaa5627c33bebe34c71b085ae356 *R/wrap.R
 fb1e3d45b530506771eac152ebcc0eb0 *R/xicor.R
@@ -275,7 +275,7 @@ ead57926f9df96d850316fb3c4585a87 *man/identify_outlier.Rd
 4118af4b7edc8ac99a21541a15112859 *man/identify_privacythreshold.Rd
 1575211e3b52c3b6c4a7de9a96fa3976 *man/identify_shifts.Rd
 df8f9546ad17a6a1a83e30ec9783a43c *man/identify_tenure.Rd
-c119dc3627c27f8244746cb96d52c709 *man/identify_usage_segments.Rd
+3ecf0a30d1cf5e59085e1a71923b8eaa *man/identify_usage_segments.Rd
 74a983a44d25eb2818cfe7a367aded08 *man/import_query.Rd
 3e7598888ac31fe40a45f44216559d69 *man/is_date_format.Rd
 a5838cb90337266bc7435cde3223ef20 *man/jitter_metrics.Rd
@@ -349,4 +349,5 @@ fa2813431edb235c8ce9edd4fe5d33b9 *tests/testthat/test_create_sankey.R
 01b13b0217f0babe2eaa8c684a8f4efc *tests/testthat/test_create_stacked.R
 c6e1ff9c24898696c77d7f6030f20f9f *tests/testthat/test_create_tracking.R
 8f5f62d15b16bf9be60744ece8a5fce9 *tests/testthat/test_create_trend.R
-1d6212c8a4c8147e2e1b9743c886c994 *tests/testthat/test_network_p2p.R
+71bbca2b0f8b7a661b4841e2345306c5 *tests/testthat/test_identify_functions.R
+a5841a57544416332f5bcb06f8f6d268 *tests/testthat/test_network_p2p.R
