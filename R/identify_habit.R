@@ -6,7 +6,8 @@
 #' @title 
 #' Identify whether a habitual behaviour exists over a given interval of time
 #' 
-#' @description
+#' @description `r lifecycle::badge('experimental')`
+#' 
 #' Based on the principle of consistency, this function identifies whether a
 #' habit exists over a given interval of time. A habit is defined as a behaviour
 #' (action taken) that is repeated at least x number of times consistently over
@@ -124,6 +125,9 @@ identify_habit <- function(
       
       suppressMessages(
         habit_df %>%
+          # Filter out the first max_window periods for plotting
+          arrange(MetricDate) %>%
+          slice(-(1:(max_window * n_distinct(PersonId)))) %>%
           group_by(MetricDate, IsHabit) %>%
           summarise(n = n_distinct(PersonId), .groups = "drop") %>%
           ggplot(aes(x = MetricDate, y = n, fill = IsHabit)) +
@@ -144,6 +148,9 @@ identify_habit <- function(
       
       suppressMessages(
         habit_df %>%
+          # Filter out the first max_window periods for plotting
+          arrange(MetricDate) %>%
+          slice(-(1:(max_window * n_distinct(PersonId)))) %>%
           create_boxplot(hrvar = hrvar, metric = "IsHabit") +
           labs(
             title = paste("Habitual Behaviour -", us_to_space(metric)),
